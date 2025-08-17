@@ -1,0 +1,22 @@
+source:
+  type: local_folder
+  path: ./artifacts
+  # path: c:/temp
+
+processor:
+  type: docling
+  chunk_size: 500
+  overlap: 50
+
+embedder:
+  type: litellm
+  model: text-embedding-3-small
+  api_key: ${OPENAI_API_KEY}
+
+vector_db:
+  type: chroma
+  persist_directory: ./chroma_db
+
+sql_db:
+  type: sqlite
+  path: ./metadata.db

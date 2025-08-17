@@ -1,0 +1,17 @@
+[project]
+name = "data-loader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.17",
+    "hf-xet>=1.1.7",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.27",
+    "langchain-docling>=1.0.0",
+    "langchain-huggingface>=0.3.1",
+    "prefect>=3.4.13",
+    "sentence-transformers>=5.1.0",
+]
