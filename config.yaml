@@ -16,6 +16,7 @@ embedder:
 vector_db:
   type: chroma
   persist_directory: ./chroma_db
+  collection_name: data_store
 
 sql_db:
   type: sqlite

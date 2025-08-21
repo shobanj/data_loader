@@ -12,6 +12,7 @@ dependencies = [
     "langchain-community>=0.3.27",
     "langchain-docling>=1.0.0",
     "langchain-huggingface>=0.3.1",
+    "litellm>=1.75.8",
     "prefect>=3.4.13",
     "sentence-transformers>=5.1.0",
 ]
