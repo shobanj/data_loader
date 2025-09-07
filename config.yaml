@@ -20,4 +20,4 @@ vector_db:
 
 sql_db:
   type: sqlite
-  path: ./metadata.db
+  db_file: ./metadata.db
